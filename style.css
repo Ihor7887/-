@@ -1,0 +1,137 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.flex-conteiner {
+  display: flex;
+border: 4px solid rgb(17, 245, 10);
+width: 720px;
+
+}
+
+.flex-item { 
+   padding: 2px;
+   font: 900 40px "Roboto", sans-serif;
+   color: rgb(74, 204, 236);
+   text-align: center; 
+   text-shadow: 4px 2px 0 rgb(105, 10, 201);
+   width: 33.33%;
+   margin: 5px;
+}
+
+
+.item-1 {
+   border: 2px solid  #967983;
+background-image: linear-gradient(45deg,  #F19CBB, #af436b);
+}
+.item-2 {
+   border: 2px solid #967983;
+   background-image: linear-gradient(45deg, #683447,#8a359b); 
+}
+.item-3 {
+   border: 2px solid #967983;
+   background-image: linear-gradient(45deg, #e6ee7c, #f58607);
+}
+
+/* .flex-conteine-2 {
+   display: flex;
+   border: 1px;
+   min-height: 87vh;
+   width: 720px;
+   flex-direction: row;
+   
+   }
+   .item-4 {
+      padding: 6px;
+
+      width: 250px;
+      border: 5px solid  #6bcbf1;
+      background-image: linear-gradient(45deg,  #fcfcfc, #af436b);
+   } */
+
+   .flex-conteine-2 {
+      display: flex;
+
+      min-height:75vh;
+      width: 720px;
+   
+      
+      }
+      .flex-item-2 { 
+         padding: 8px;
+         width: 250px;
+         border: 5px solid  #6bcbf1;
+
+      }
+      
+      .item-4 {
+         padding: 30px;
+         margin: 5px;
+         border: 2px solid #967983;
+         background-image: linear-gradient(45deg, #e6ee7c, #f58607);
+      }
+     
+   
+   
+      .flex-item-3 { 
+         display: flex;
+         flex-wrap: wrap;
+         
+         padding: 2px;
+        
+         width: 470px;
+         border: 5px solid  #5895f0;
+         background-image: linear-gradient(45deg,  #fcfcfc, #af436b);
+      }
+
+      
+      .item-5 { 
+         display: flex;
+         
+      }
+      .nev-item-5{
+         height: 85px;
+         width: 218px;
+         margin: 5px;
+         border: 2px solid #967983;
+         background-image: linear-gradient(45deg, #e6ee7c, #f58607);
+
+      }
+      .item-6{
+         display: flex;
+         justify-content: center;
+
+
+         height: 450px;
+         width: 450px;
+         margin: 5px;
+         border: 2px solid #967983;
+         background-image: linear-gradient(45deg, #e6ee7c, #f58607);
+         
+
+      }
+      .nev-item-6{
+         
+         width: 218px;
+         margin: 5px;
+
+         border: 2px solid #f3578e;
+         background-image: linear-gradient(45deg, #dce926, #fc8702);
+      }
+      .nev-item-7{
+         display: flex;
+         flex-direction: column;
+         width: 218px;
+         margin: 5px;
+      }
+      .v-item-7{
+         flex-basis:50%;
+         margin: 5px;
+         border: 2px solid #f3578e;
+         background-image: linear-gradient(45deg, #dce926, #fc8702);
+      }
+      
+   
+ 
